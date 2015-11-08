@@ -72,7 +72,7 @@
     					var val=playerref.val();
     					var usersRef = firebaseref.child(userId);
     					usersRef.update({
-    						"rotate":val-20
+    						"rotate":val-45
     					});
   					});
 
@@ -84,7 +84,7 @@
     					var val=playerref2.val();
     					var usersRef2 = firebaseref.child(userId);
     					usersRef2.update({
-    						"rotate":val+20
+    						"rotate":val+45
     					});
   					});
 			}
@@ -108,7 +108,7 @@
 			}
 		});
 		}
-		init("hangout1","uid2");
+		
 
 
 
